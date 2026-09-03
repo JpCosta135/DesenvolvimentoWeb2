@@ -28,15 +28,15 @@ form.addEventListener("submit", (event) => {
 list.addEventListener ("click", (event) => {
 
     event.target;
-    event.target.classList.contains(".todo-item");
-    if (event.target.classList.contains(".todo-item")) {
-        event.target.classList.contains(".todo-item");
+    event.target.classList.contains("todo-item");
+    if (event.target.classList.contains("todo-item")) {
+        event.target.classList.toggle("done");
     }
 
 });
 
 const contador = document.querySelector("#contador");
 function atualizarContador() {
-    document.querySelectorAll(".todo-item:not(.done)")
+    document.querySelectorAll("todo-item:not(.done)")
 
 }
