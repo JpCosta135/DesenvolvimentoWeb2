@@ -40,3 +40,5 @@ function atualizarContador() {
     document.querySelectorAll("todo-item:not(.done)")
 
 }
+
+console.log("teste");
