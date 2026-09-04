@@ -17,9 +17,7 @@ form.addEventListener("submit", (event) => {
         button.addEventListener("click", (event) => {
             li.remove();
             atualizarContador();
-
             event.stopPropagation();
-
         });
         list.appendChild(li);
         input.value = "";
@@ -39,10 +37,9 @@ list.addEventListener ("click", (event) => {
 
 });
 
-const contador = document.querySelector("#contador");
-function atualizarContador() {
-    let valor = document.querySelectorAll(".todo-item:not(.done)");
-    contador.textContent = valor.length;
-}
 
- 
+ function atualizarContador() {
+    const contador = document.querySelector("#contador");
+    let valor = document.querySelectorAll(".todo-item:not(.done)");
+    document.querySelector("#contador").textContent = valor.length;
+}
