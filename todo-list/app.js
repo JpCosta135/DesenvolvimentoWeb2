@@ -11,17 +11,20 @@ form.addEventListener("submit", (event) => {
         li.classList.add("todo-item");
         li.textContent = input.value;
         const button = document.createElement("button");
+        button.textContent = "\u00D7";
         button.classList.add("btn-remover");
         li.appendChild(button);
-        button.textContent = "\u00D7";
-        button.addEventListener("click", (e) => {
+        button.addEventListener("click", (event) => {
             li.remove();
+            atualizarContador();
 
             event.stopPropagation();
+
         });
         list.appendChild(li);
         input.value = "";
         input.focus();
+        atualizarContador();
     }
 });
 
@@ -31,14 +34,15 @@ list.addEventListener ("click", (event) => {
     event.target.classList.contains("todo-item");
     if (event.target.classList.contains("todo-item")) {
         event.target.classList.toggle("done");
+        atualizarContador();
     }
 
 });
 
 const contador = document.querySelector("#contador");
 function atualizarContador() {
-    document.querySelectorAll("todo-item:not(.done)")
-
+    let valor = document.querySelectorAll(".todo-item:not(.done)");
+    contador.textContent = valor.length;
 }
 
-console.log("teste");
+ 
