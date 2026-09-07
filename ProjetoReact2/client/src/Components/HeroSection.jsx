@@ -1,8 +1,7 @@
 import { useState } from 'react';
-// Importe os logos que o seu projeto usa (ajuste os caminhos se necessário)
 import reactLogo from '../assets/react.svg';
 import viteLogo from '../assets/vite.svg';
-import heroImg from '../assets/hero.png'; // Exemplo, ajuste conforme sua estrutura
+import heroImg from '../assets/hero.png'; 
 
 export function HeroSection() {
     const [count, setCount] = useState(0);
