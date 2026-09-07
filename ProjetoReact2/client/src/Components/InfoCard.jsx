@@ -2,11 +2,11 @@
 
 
 
-export function InfoCard({ title, description, links }) {
+export function InfoCard({ iconHref, title, description, links }) {
     return (
         <div> 
             <svg className="icon" role="presentation" aria-hidden="true">
-                <use href="/icons.svg#info-icon"></use>
+                <use href={iconHref}></use>
             </svg>
             <h2>{title}</h2>
             <p>{description}</p>
@@ -14,13 +14,13 @@ export function InfoCard({ title, description, links }) {
                 {links.map((link, index) => (
                     <li key={index}>
                         <a href={link.url} target="_blank" rel="noopener noreferrer">
-                            {link.iconref && (
+                            {link.iconHref && (
                                 <svg className="button-icon" role="presentation" aria-hidden="true">
-                                    <use href={link.iconref}></use>
+                                    <use href={link.iconHref}></use>
                                 </svg>
                             )}
-                            {link.imgsrc && (
-                                <img className={link.imgClassName || "logo"} src={link.imgSrc} alt="" />
+                            {link.imgSrc && (
+                                <img src={link.imgSrc} alt="" className={link.imgClassName} width="18" height="18" />
                             )}
                             {link.label}
                         </a>

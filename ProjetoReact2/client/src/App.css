@@ -148,6 +148,14 @@
       height: 18px;
       width: 18px;
     }
+    .logo,
+    .button-icon,
+    img.logo,
+    img.button-icon {
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0; /* Impede que o ícone amasse se o espaço apertar */
+    }
   }
 
   @media (max-width: 1024px) {
@@ -196,3 +204,4 @@
     border-right-color: var(--border);
   }
 }
+
