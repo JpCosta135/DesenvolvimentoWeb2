@@ -1,7 +1,4 @@
 
-
-
-
 export function InfoCard({ iconHref, title, description, links }) {
     return (
         <div> 
