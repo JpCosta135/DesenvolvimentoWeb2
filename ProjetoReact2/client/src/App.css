@@ -75,6 +75,10 @@
   border-top: 1px solid var(--border);
   text-align: left;
 
+  & > * + * {
+    border-left: 1px solid var(--border);
+  }
+
   & > div {
     flex: 1 1 0;
     padding: 32px;
