@@ -1,5 +1,7 @@
 export default function Navbar(props) {
 
+    return (
+        <section id="Navbar">
 
 
 
@@ -12,6 +14,11 @@ export default function Navbar(props) {
 
 
 
+
+
+        </section>
+
+    )
 
 
 }
