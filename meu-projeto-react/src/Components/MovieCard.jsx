@@ -8,6 +8,14 @@ export default function MovieCard(props) {
 
             </div>
 
+            <div className="card-body">
+
+            </div>
+
+            <button>
+
+            </button>
+
 
 
 
