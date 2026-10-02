@@ -15,8 +15,15 @@ export default function Navbar(props) {
 
    </nav>
 
+    return (
+        <section id="Navbar">
 
 
    )
+
+        </section>
+
+    )
+
 
 }
