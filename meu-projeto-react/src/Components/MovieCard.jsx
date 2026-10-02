@@ -1,21 +1,20 @@
 
 
-export default function MovieCard(props) {
+export default function MovieCard({titulo, ano, nota, imagem}) {
     return (
-        <Section id="MovieCard">
+        <div className="MovieCard">
+        <img src={imagem} alt={titulo} className="Movie-Poster"/>
+
+        <div className="Movie-Info">
+            <h3>{titulo}</h3>
+
+            <div className="Movie-Details">
+                <span className="Ano">{ano}</span>
+                <span className="Nota">{nota}</span>
+            </div>
+         </div>
+        </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-        </Section>
 )
 }
