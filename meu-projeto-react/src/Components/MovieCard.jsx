@@ -1,7 +1,8 @@
 
 
-
 export default function MovieCard(props) {
+    return (
+        <Section id="MovieCard">
 
 
 
@@ -15,6 +16,6 @@ export default function MovieCard(props) {
 
 
 
-
-
+        </Section>
+)
 }
