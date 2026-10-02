@@ -1,0 +1,21 @@
+export default function Detalhes () {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
