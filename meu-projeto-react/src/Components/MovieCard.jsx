@@ -1,4 +1,7 @@
-import "./MovieCard.css"
+import "/ComponentsStyles/MovieCard.css"
+
+
+
 
 export default function MovieCard({titulo, ano, nota, imagem}) {
     return (

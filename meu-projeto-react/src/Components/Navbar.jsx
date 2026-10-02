@@ -1,4 +1,4 @@
-import "./MovieCard.css"
+import "/ComponentsStyles/Navbar.css"
 
 export default function Navbar(props) {
    return ( <nav className="Navbar">

@@ -1,5 +1,5 @@
 import Navbar from "./Navbar.jsx";
-import "./Layout.css"
+import "/ComponentsStyles/Layout.css";
 
 export default function Layout({children}) {
     return (
@@ -12,10 +12,7 @@ export default function Layout({children}) {
 
 
 
-
         </div>
-
-
 
     )
 }
