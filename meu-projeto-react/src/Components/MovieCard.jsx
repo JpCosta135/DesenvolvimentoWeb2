@@ -1,4 +1,4 @@
-
+import "./MovieCard.css"
 
 export default function MovieCard({titulo, ano, nota, imagem}) {
     return (

@@ -1,5 +1,5 @@
 import Navbar from "./Navbar.jsx";
-
+import "./Layout.css"
 
 export default function Layout({children}) {
     return (

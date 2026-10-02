@@ -1,3 +1,5 @@
+import "./MovieCard.css"
+
 export default function Navbar(props) {
    return ( <nav className="Navbar">
 
