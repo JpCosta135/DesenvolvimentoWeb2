@@ -11,11 +11,4 @@ export default function Detalhes () {
 
 
 
-
-
-
-
-
-
-
 }
