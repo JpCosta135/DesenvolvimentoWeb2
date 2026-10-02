@@ -1,6 +1,6 @@
 import "/ComponentsStyles/Navbar.css"
 
-export default function Navbar(props) {
+export default function Navbar() {
    return ( <nav className="Navbar">
 
 
