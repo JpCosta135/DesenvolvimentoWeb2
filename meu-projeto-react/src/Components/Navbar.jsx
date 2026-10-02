@@ -7,10 +7,9 @@ export default function Navbar(props) {
            </div>
 
            <ul className="menu-links">
-               <li ></li>
-               <li ></li>
-               <li ></li>
-               <li ></li>
+               <li ><a href="#home">Home</a></li>
+               <li ><a href="#Busca">Busca</a></li>
+               <li ><a href="#Favoritos">Favoritos</a></li>
            </ul>
 
    </nav>
