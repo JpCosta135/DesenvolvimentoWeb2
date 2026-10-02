@@ -1,4 +1,4 @@
-export default function Detalhes () {
+function Detalhes () {
 
 
 
@@ -12,3 +12,5 @@ export default function Detalhes () {
 
 
 }
+
+export default Detalhes;
