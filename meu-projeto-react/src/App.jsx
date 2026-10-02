@@ -11,6 +11,7 @@ export default function App() {
       <Navbar>
       </Navbar>
          <button onClick={() => setCount(count + 1)}></button>
+            <p>teste</p>
 
       </>
   )
