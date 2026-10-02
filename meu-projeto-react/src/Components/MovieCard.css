@@ -1,0 +1,35 @@
+.MovieCard {
+    width: 220px;
+    background-color: #2b2b2b;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+.MovieCard:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.Movie-Poster {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+.Movie-Info h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.Movie-Details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+.nota {
+    color: #f5c518;
+    font-weight: bold;
+}
