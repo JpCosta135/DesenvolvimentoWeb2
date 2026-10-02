@@ -1,8 +1,6 @@
 import "/ComponentsStyles/MovieCard.css"
 
 
-
-
 export default function MovieCard({titulo, ano, nota, imagem}) {
     return (
         <div className="MovieCard">
