@@ -1,0 +1,9 @@
+.Layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.conteudo-pagina{
+    flex: 1;
+    background-color: #141414;
+}

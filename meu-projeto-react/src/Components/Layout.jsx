@@ -1,14 +1,21 @@
-export default function Layout(props) {
+import Navbar from "./Navbar.jsx";
+
+
+export default function Layout({children}) {
+    return (
+        <div className="layout">
+            <Navbar />
+
+            <main className="Conteudo-Pagina">
+                {children}
+            </main>
 
 
 
+            <Footer />
+        </div>
 
 
 
-
-
-
-
-
-
+    )
 }
