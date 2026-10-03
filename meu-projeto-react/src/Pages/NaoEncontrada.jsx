@@ -1,4 +1,4 @@
-export default function NaoEncontrada () {
+function NaoEncontrada () {
     return (
         <>
         <h1>Nao Encontrada!</h1>
@@ -8,3 +8,6 @@ export default function NaoEncontrada () {
     )
 
 }
+
+
+export default NaoEncontrada;

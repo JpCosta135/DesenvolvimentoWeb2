@@ -1,17 +1,7 @@
-export default function Busca () {
 
 
 
-
-
-
-
-
-
-
-
-
-
+function Busca () {
 
 
 
@@ -19,3 +9,6 @@ export default function Busca () {
 
 
 }
+
+
+export default Busca;

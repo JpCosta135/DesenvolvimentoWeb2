@@ -1,4 +1,4 @@
-export default function Home () {
+function Home () {
 
 
 
@@ -12,3 +12,6 @@ export default function Home () {
 
 
 }
+
+
+export default Home;

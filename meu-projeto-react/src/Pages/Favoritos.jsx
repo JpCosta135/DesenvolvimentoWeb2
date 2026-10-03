@@ -1,11 +1,5 @@
 
-
-export default function Favoritos () {
-
-
-
-
-
+function Favoritos () {
 
 
 
@@ -17,3 +11,5 @@ export default function Favoritos () {
 
 
 }
+
+export default Favoritos;
