@@ -1,8 +1,6 @@
 import './ComponentsStyles/Navbar.css'
 
-
-
-export default function Navbar() {
+function Navbar() {
    return ( <nav className="Navbar">
 
            <div className="logo">
@@ -20,3 +18,5 @@ export default function Navbar() {
 
 
 }
+
+export default Navbar;

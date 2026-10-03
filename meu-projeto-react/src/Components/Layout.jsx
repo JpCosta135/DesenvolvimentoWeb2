@@ -1,7 +1,9 @@
 import Navbar from "./Navbar.jsx";
 import "/ComponentsStyles/Layout.css";
 
-export default function Layout({children}) {
+
+
+function Layout({children}) {
     return (
         <div className="layout">
             <Navbar />
@@ -16,3 +18,5 @@ export default function Layout({children}) {
 
     )
 }
+
+export default Layout;

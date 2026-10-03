@@ -1,7 +1,6 @@
 import "/ComponentsStyles/MovieCard.css"
 
-
-export default function MovieCard({titulo, ano, nota, imagem}) {
+function MovieCard({titulo, ano, nota, imagem}) {
     return (
         <div className="MovieCard">
         <img src={imagem} alt={titulo} className="Movie-Poster"/>
@@ -19,3 +18,5 @@ export default function MovieCard({titulo, ano, nota, imagem}) {
 
 )
 }
+
+export default MovieCard;
