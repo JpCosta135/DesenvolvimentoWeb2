@@ -12,8 +12,6 @@ function Layout({children}) {
                 {children}
             </main>
 
-
-
         </div>
 
     )
